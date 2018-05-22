@@ -1,0 +1,69 @@
+/* GENERAL */
+.container {width: 1080px; margin:auto;}
+html {font-size: 14px;}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+figcaption {font-family: 'Tajawal', sans-serif; font-size: 0.75em;}
+.sans {font-family: sans-serif;}
+
+/* HEADER */
+h1 {font-size: 1.8e m;}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1em; margin-bottom: 4px;}
+.world {font-size: 3em; font-family: 'Tajawal', sans-serif; font-weight: 900;}
+
+
+
+.bor-double {border-bottom: 2px double #aaa;}
+
+.menu li {
+    display: inline-block; 
+    border-right: 1px solid #aaa; 
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1em;
+}
+
+.exception {
+    border-right: none;
+}
+
+/* MAIN CONTENT */
+main {width: 1080px;}
+.main-content {width: 790px;}
+
+#firstColumn {width: 180px; vertical-align: top;}
+#secondColumn {width: 360px; vertical-align: top;}
+#thirdColumn {width: 220px; vertical-align: top;}
+
+#fourthColumn {width: 210px;}
+#fifthColumn {width: 230px; vertical-align: top;}
+#sixthColumn {width: 300px; vertical-align: top;}
+#sixthColumn div {width: 300px;}
+
+.smallColumn {width: 175px; vertical-align: top;}
+
+#figcap {width: 220px;}
+
+#worldFirstColumn {width: 540px; display: inline-block;}
+#worldFirstColumn p {font-size: 1.1em;}
+#worldSecondColumn {width: 230px; display: inline-block; vertical-align: top;}
+#worldSecondColumn p {font-size: 1.1em;}
+#worldThirdColumn {width: 240px; display: inline-block; vertical-align: top;}
+#worldThirdColumn h4 {font-size: 1.2em;}
+#worldThirdColumn p {font-size: 1.1em;}
+
+.worldSmallColumn {width: 190px;}
+.worldLastColumn {width: 775px;}
+
+.lastLeft {width: 120px;}
+.lastCenter {width: 430px;}
+.lastCenter h5 {font-size: 1.3em;}
+.lastCenter p {font-size: 1.1em}
+.lastRight {width: 215px;}
+.datetime {font-family: sans-serif; font-size: 0.85em;}
+
+/* SIDE CONTENT */
+.side-content {width: 260px; vertical-align: top; font-size: 16px;}
